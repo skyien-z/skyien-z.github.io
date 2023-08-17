@@ -1,0 +1,22 @@
+/* This is the blinking cursor animation */
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the cursor animation to an element with the 'blinking-cursor' class */
+  .blinking-cursor {
+    display: inline-block;
+    width: 2px; /* Adjust the width of the cursor */
+    height: 1em; /* Adjust the height of the cursor */
+    background-color: black; /* Adjust the color of the cursor */
+    animation: blink 0.8s infinite; /* Adjust the animation duration */
+  }
+  

@@ -1,0 +1,54 @@
+#caption {
+    position: absolute;
+    left: 1000px;
+    margin: 0;
+    font-size: x-small;
+    text-align: left;
+}
+
+.contact-page-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 18px;
+    animation: fade-in 0.5s ease backwards;;
+}
+
+.figure {
+    margin-bottom: 15px;
+}
+
+.contact-png {
+    height: 500;
+    width: 500;
+    object-fit: contain;
+}
+
+#contact-png-caption {
+    margin: 0;
+    font-size: x-small;
+}
+
+.header-container {
+    font-size: 30px;
+    font-weight: 400;
+    margin-right: 33%;
+}
+
+.contact-links {
+    margin: 10px 0px 0px;
+}
+
+@keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(0px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(5px);
+    }
+  }

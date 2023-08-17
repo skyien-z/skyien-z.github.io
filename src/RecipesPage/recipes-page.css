@@ -1,0 +1,68 @@
+.rec-page-container {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: flex-start; /* Aligns content to the top of the page */
+    padding: 0 50px;
+    max-width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.rec-page-container .about-container h1 {
+    text-align: center;
+    width: 100%;
+}
+
+.about-container p {
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+
+.about-container {
+    flex: 1; /* Takes up 1/3 of the available width */
+    padding-right: 100px;
+    font-size: x-large;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.cake-png {
+    width: 500px;
+    height: 425px;
+    object-fit: contain;
+    margin: 0px;
+}
+
+.content-container ul {
+    list-style: disc;
+    display:inline;
+}
+
+.content-container li {
+    display: list-item;
+    margin-left: 50px;
+    font-size: 18px;
+  }
+
+.content-container h2 {
+    margin-top: 10px;
+}
+
+.content-container a {
+    margin: 0;
+    padding: 0;
+}
+
+.content-container {
+    margin-left: 50px;
+}
+
+.content-container .inner-list {
+    list-style-type: circle;
+}
+
+.content-container .inner-list li {
+    margin-left: 40px;
+}
