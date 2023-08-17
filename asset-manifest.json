@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3e2754b4.css",
+    "main.js": "/static/js/main.5dfe68aa.js",
+    "static/js/787.60235f71.chunk.js": "/static/js/787.60235f71.chunk.js",
+    "static/media/profile_pic.JPG": "/static/media/profile_pic.23366bff33fb665170e9.JPG",
+    "static/media/about-page.png": "/static/media/about-page.79e54297cf570a90b591.png",
+    "static/media/cakes.png": "/static/media/cakes.8a97d034fffed19809db.png",
+    "static/media/backdrop.png": "/static/media/backdrop.6567fa8a690d1a35ad15.png",
+    "static/media/about-page-sunflowers.png": "/static/media/about-page-sunflowers.d5ff3fbc33c0f712ef80.png",
+    "static/media/religious_pressures.pdf": "/static/media/religious_pressures.a39629f5aafce7672a3e.pdf",
+    "static/media/cultural_pressures.pdf": "/static/media/cultural_pressures.d3d29fac16310c3f7cb0.pdf",
+    "index.html": "/index.html",
+    "main.3e2754b4.css.map": "/static/css/main.3e2754b4.css.map",
+    "main.5dfe68aa.js.map": "/static/js/main.5dfe68aa.js.map",
+    "787.60235f71.chunk.js.map": "/static/js/787.60235f71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e2754b4.css",
+    "static/js/main.5dfe68aa.js"
+  ]
+}
