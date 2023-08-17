@@ -11,11 +11,11 @@ import reportWebVitals from './reportWebVitals';
 import './index.css';
 
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     basename: '/skyien-z.github.io',
     path: "/",
