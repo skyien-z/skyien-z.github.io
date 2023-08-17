@@ -17,6 +17,7 @@ import {
 
 const router = createBrowserRouter([
   {
+    basename: 'skyien-z.github.io',
     path: "/",
     element: <App/>,
     errorElement: <ErrorPage/>,
