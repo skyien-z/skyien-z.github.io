@@ -45,12 +45,12 @@ function AboutPage() {
                 <p> 
                     I program in Python, Java, JS, C++, C, and MATLAB. This website is made with React, and I spent the summer 
                     making a React/Express/MongoDB full-stack Chat-GPT-integrated file interface for <NewTabLink 
-                    href='https://dl.acm.org/profile/81100468423' linkedText='Ned Gulley'/> at MathWorks. 
+                    href='https://www.mathworks.com/matlabcentral/profile/authors/140947' linkedText='Ned Gulley'/> at MathWorks. 
                 </p>
                 <p>
                     This website was made at the recommendation of my fellow CS Undergraduate Studies Committee and Education Policy Committee 
                     member <NewTabLink href='https://waf.cs.illinois.edu/' linkedText='Wade Fagen-Ulmschneider'/>, who told me that I needed to learn how to 
-                    market myself. In an effort to do so, I now co-lead ACM's marketing committee, and you can find information on 
+                    market myself. In an effort to do so, I now co-lead ACM's marketing committee, and you can find information about 
                     our latest events <NewTabLink href='https://www.instagram.com/acm.uiuc/' linkedText='here'/>.
                 </p>
                 <p>

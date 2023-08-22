@@ -7,8 +7,9 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-image: url('./resources/img/backdrop.png');
-  background-size: auto;
   background-color: rgb(254, 249, 233);
 }
 

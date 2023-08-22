@@ -34,7 +34,7 @@ function BlogPage() {
                     </li>
                     <li>
                         You can add four tablespoons of peanut butter when combining the 
-                        wet ingredients to get what my college roommates terms a "really good sesame-flavored cookie."
+                        wet ingredients to get what my college roommate terms a "really good sesame-flavored cookie."
                     </li>
                 </ul>
                 <h2> Hot Chocolate Pistachio Cookies </h2>

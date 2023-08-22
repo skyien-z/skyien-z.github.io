@@ -24,12 +24,10 @@ const confettiShape = (ctx) => {
     ctx.closePath();
 }
 
-function ColorfulConfettiWords({words, setIsHovering}) {
+function ColorfulConfettiWords({words}) {
     const wordsArray = words.split(' ');
     return (
-        <span className="rainbow-words" 
-            onMouseEnter={() => setIsHovering(true)} 
-            onMouseLeave={() => setIsHovering(false)}>
+        <span className="rainbow-words">
             {wordsArray.map((word, wordIndex) => (
             <>
                 {word.split('').map((letter, letterIndex) => (
@@ -83,13 +81,14 @@ function HomePage() {
                 I'm obsessed with cyber policy, programming language design,
                 and finding the most consistently awesome flavor of ice cream.
             </p>
-            <p>
+            <p onMouseEnter={() => setIsHovering(true)} 
+                onMouseLeave={() => setIsHovering(false)}>
                 I also write websites and can make 
                 <ColorfulConfettiWords words={" colorful graphics "} setIsHovering={setIsHovering}/> 
                  appear on your screen.
             </p>
             <p>
-                Throw me a metaphor and I'll catch you a simile.
+                Throw me a simile and I'll catch you a metaphor.
             </p>
             {isHovering && <Confetti recycle={false} numberOfPieces={300} drawShape={confettiShape}/>}
         </div>
