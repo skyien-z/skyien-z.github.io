@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.baca05fd.css",
-    "main.js": "/static/js/main.bc76ae36.js",
-    "static/js/787.60235f71.chunk.js": "/static/js/787.60235f71.chunk.js",
-    "static/media/profile_pic.png": "/static/media/profile_pic.b4a4b73238c12d613f91.png",
-    "static/media/about-page.png": "/static/media/about-page.176110dba1b12ed0ddac.png",
+    "main.css": "/static/css/main.6e9b42c4.css",
+    "main.js": "/static/js/main.5e537df6.js",
+    "static/js/453.e1a4b6e9.chunk.js": "/static/js/453.e1a4b6e9.chunk.js",
+    "static/media/profile_pic.JPG": "/static/media/profile_pic.23366bff33fb665170e9.JPG",
+    "static/media/about-page.png": "/static/media/about-page.79e54297cf570a90b591.png",
     "static/media/cakes.png": "/static/media/cakes.8a97d034fffed19809db.png",
-    "static/media/backdrop.png": "/static/media/backdrop.cfe48130abd3766045f8.png",
+    "static/media/backdrop.png": "/static/media/backdrop.6567fa8a690d1a35ad15.png",
     "static/media/about-page-sunflowers.png": "/static/media/about-page-sunflowers.d5ff3fbc33c0f712ef80.png",
     "static/media/religious_pressures.pdf": "/static/media/religious_pressures.a39629f5aafce7672a3e.pdf",
     "static/media/cultural_pressures.pdf": "/static/media/cultural_pressures.d3d29fac16310c3f7cb0.pdf",
     "index.html": "/index.html",
-    "main.baca05fd.css.map": "/static/css/main.baca05fd.css.map",
-    "main.bc76ae36.js.map": "/static/js/main.bc76ae36.js.map",
-    "787.60235f71.chunk.js.map": "/static/js/787.60235f71.chunk.js.map"
+    "main.6e9b42c4.css.map": "/static/css/main.6e9b42c4.css.map",
+    "main.5e537df6.js.map": "/static/js/main.5e537df6.js.map",
+    "453.e1a4b6e9.chunk.js.map": "/static/js/453.e1a4b6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.baca05fd.css",
-    "static/js/main.bc76ae36.js"
+    "static/css/main.6e9b42c4.css",
+    "static/js/main.5e537df6.js"
   ]
 }
