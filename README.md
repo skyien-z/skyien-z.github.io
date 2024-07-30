@@ -4,4 +4,4 @@ For future me:
 3. Then remember `npm start` and `npm run deploy`. 
 That is all.
 
-P.S. Consider adding newer pictures `:p`
+P.S. Consider changing out pictures every half decade or so `:p`
