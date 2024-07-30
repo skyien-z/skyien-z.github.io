@@ -3,7 +3,7 @@ import TypingWord from '../TypingWord/typing-word';
 import { useState, useEffect } from 'react';
 import Confetti from 'react-confetti'
 
-const WORDS_TO_ANIMATE = ['digest', 'like', 'weave', 'explain', 'dance with', 'borrow', 'teach'];
+const WORDS_TO_ANIMATE = ['poke at', 'like', 'weave', 'explain', 'dance with', 'borrow', 'teach', 'learn'];
 
 
 const confettiShape = (ctx) => {
@@ -50,8 +50,8 @@ function BulletAboutProfile() {
         <div className='about-container'>
             <img className='profile-img' alt='hello!' width={200} src={require('../resources/img/profile_pic.JPG')}></img>
             <h1> Kylie Zhang </h1>
-            <h2> BS-MCS in CS </h2>
-            <h2> University of Illinois at Urbana-Champaign </h2>
+            <h2> BS in CS, UIUC. </h2>
+            <h2> MS in CS, Princeton. </h2>
         </div>
     )
 }

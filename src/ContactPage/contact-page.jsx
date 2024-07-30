@@ -9,7 +9,9 @@ function ContactPage() {
         </div>
         <figure className='figure'>
              <img className='contact-png' width={400} height={400} src={require('../resources/img/about-page-sunflowers.png')}></img>
-             <figcaption style={{fontSize:'x-small', textAlign:'right'}}> Photoshop courtesy of Griffin Bates </figcaption>
+             <figcaption style={{fontSize:'x-small', textAlign:'right'}}> Photoshop courtesy of <NewTabLink 
+                        href='https://groovyboron.com/' 
+                        linkedText='Griffin Bates'/>. </figcaption>
         </figure>
         <p> Shoot me an email at kyliez2(at)illinois.edu to get in touch.</p>
         <p> You can also reach me at the following (virtual) locations: </p>

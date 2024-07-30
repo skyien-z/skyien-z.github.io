@@ -56,3 +56,8 @@
   .contact-page-container li:hover {
     transform: scale(1.1);
   }
+
+  .figure a {
+    color: #005abb;
+    text-decoration: none;
+  }
