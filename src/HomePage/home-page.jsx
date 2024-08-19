@@ -3,7 +3,7 @@ import TypingWord from '../TypingWord/typing-word';
 import { useState, useEffect } from 'react';
 import Confetti from 'react-confetti'
 
-const WORDS_TO_ANIMATE = ['poke at', 'like', 'weave', 'explain', 'dance with', 'borrow', 'teach', 'learn'];
+const WORDS_TO_ANIMATE = ['poke at', 'like', 'weave', 'explain', 'dance with', 'borrow', 'tease', 'teach'];
 
 
 const confettiShape = (ctx) => {
