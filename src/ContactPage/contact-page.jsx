@@ -13,7 +13,7 @@ function ContactPage() {
                         href='https://groovyboron.com/' 
                         linkedText='Griffin Bates'/>. </figcaption>
         </figure>
-        <p> Shoot me an email at kyliez2(at)illinois.edu to get in touch.</p>
+        <p> Shoot me an email at kylie.zhang(at)princeton.edu to get in touch.</p>
         <p> You can also reach me at the following (virtual) locations: </p>
         <ul className='contact-links'>
             <li> <NewTabLink href='https://www.linkedin.com/in/kyliez/' 

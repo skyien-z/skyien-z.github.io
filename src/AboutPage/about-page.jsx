@@ -48,10 +48,7 @@ function AboutPage() {
                     Grafana page load dashboards for <NewTabLink href='https://www.linkedin.com/in/willyi/' linkedText='Will Yi'/> at Cisco Meraki.
                 </p>
                 <p>
-                    I have also researched the <NewTabLink 
-                                                    href={require('../resources/files/cultural_pressures.pdf')} 
-                    linkedText='cultural'/> and <NewTabLink href={require('../resources/files/religious_pressures.pdf')}
-                    linkedText='religious'/> aspects of sexuality under <NewTabLink 
+                    I have also researched the cultural and religious aspects of sexuality under <NewTabLink 
                     href='https://history.illinois.edu/directory/profile/chettiar' linkedText='Teri Chettiar'/>.
                      I'm fascinated by how incentive systems shape when people scale.
                 </p>
