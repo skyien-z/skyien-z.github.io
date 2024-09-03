@@ -8,7 +8,7 @@ function ContactPage() {
             <h1> Contact </h1>
         </div>
         <figure className='figure'>
-             <img className='contact-png' width={400} height={400} src={require('../resources/img/about-page-sunflowers.png')}></img>
+             <img className='contact-png' alt="" width={400} height={400} src={require('../resources/img/about-page-sunflowers.png')}></img>
              <figcaption style={{fontSize:'x-small', textAlign:'right'}}> Photoshop courtesy of <NewTabLink 
                         href='https://groovyboron.com/' 
                         linkedText='Griffin Bates'/>. </figcaption>
@@ -17,19 +17,19 @@ function ContactPage() {
         <p> You can also reach me at the following (virtual) locations: </p>
         <ul className='contact-links'>
             <li> <NewTabLink href='https://www.linkedin.com/in/kyliez/' 
-                             linkedText={<img width={50} height={50} 
+                             linkedText={<img width={50} height={50} alt=""
                              src={require('../resources/img/linkedin-official-logo.png')}/>
                              }/>
             </li>
             
             <li> <NewTabLink href='mailto:kyliez2@illinois.edu' 
-                             linkedText={<img width={50} height={50} 
+                             linkedText={<img width={50} height={50} alt=""
                              src={require('../resources/img/mail-icon.png')}/>
                              }/> 
             </li>
 
             <li> <NewTabLink href='https://github.com/skyien-z' 
-                             linkedText={<img width={50} height={50} 
+                             linkedText={<img width={50} height={50} alt=""
                              src={require('../resources/img/github-mark.png')}/>
                              }/> 
             </li>
