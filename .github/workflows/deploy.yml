@@ -1,33 +1,58 @@
-name: Deploy to GitHub Pages
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
+# Workflow here is set up to both build the website (i.e. compile it and commit that to the gh-pages branch)
+# and deploy it
+name: build-and-deploy
 
 on:
   push:
-    branches: main
-
-permissions:
-  contents: write
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+    - uses: actions/checkout@v3
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        # We're not running any of our code here, so we just need something that create-react-app
+        # and gh-pages support
+        node-version: '*'
+        cache: 'npm'
+    - name: Install dependencies
+      run: npm ci
+    - name: Build
+      # Use predeploy instead of build to make it easier to add new pre-deploy commands without modifying
+      # this file
+      run: npm run predeploy
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: ./build
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'  
+  # Copied from https://github.com/actions/deploy-pages README
+  deploy:
+    # Add a dependency to the build job
+    needs: build
 
-      - name: Install dependencies
-        run: npm install
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
 
-      - name: Build project
-        run: npm run build 
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+        id: deployment
+        uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
