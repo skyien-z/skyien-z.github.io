@@ -33,7 +33,7 @@ jobs:
     - name: Build
       # Use predeploy instead of build to make it easier to add new pre-deploy commands without modifying
       # this file
-      run: npm run predeploy
+      run: npm run deploy
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
