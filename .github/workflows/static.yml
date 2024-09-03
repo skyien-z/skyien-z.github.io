@@ -2,8 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main  # Change this to the branch you want to deploy from
+    branches: [ "main" ]
 
 jobs:
   deploy:
@@ -16,7 +15,7 @@ jobs:
       - name: Set up Node.js (if applicable)
         uses: actions/setup-node@v3
         with:
-          node-version: '14'  # Use the Node.js version you need
+          node-version: '*'  
 
       - name: Install dependencies
         run: npm install  # Change this to your package manager command if different
