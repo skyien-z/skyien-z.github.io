@@ -90,6 +90,8 @@ function HomePage() {
             <p>
                 Throw me a simile and I'll catch you a metaphor.
             </p>
+            <p style={{fontSize:'x-small', textAlign:'right'}}>
+            </p>
             {isHovering && <Confetti recycle={false} numberOfPieces={300} drawShape={confettiShape}/>}
         </div>
     </div>    

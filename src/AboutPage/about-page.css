@@ -44,8 +44,8 @@
     color: blue;
 }
 
-.content-container {
-    margin-top: 20px;
+.about-page-container .content-container {
+    margin-top: 50px;
     flex: 2; /* Takes up 2/3 of the available width */
 }
 
