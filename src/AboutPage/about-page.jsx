@@ -27,7 +27,7 @@ function AboutPage() {
             <h1> About Me </h1>
                 <p> 
                     My friends say my personality can be boiled down to ice cream, hopping around places, and Taylor Swift. 
-                    I research AI policy at <NewTabLink href='https://citp.princeton.edu/' linkedText='CITP'/> at Princeton, 
+                    I research AI policy in <NewTabLink href='https://citp.princeton.edu/' linkedText='CITP'/> at Princeton, 
                     where I'm very lucky to be advised by <NewTabLink href='https://www.peterhenderson.co/' linkedText='Peter Henderson'/>.
                 </p>
                 <p>
@@ -43,8 +43,8 @@ function AboutPage() {
                 </p>
                 <p> 
                     I program in Python, Java, JS, C++, C, and MATLAB. I spent a summer making a 
-                    GenAI file interface for <NewTabLink href='https://www.mathworks.com/matlabcentral/profile/authors/140947' 
-                    linkedText='Ned Gulley'/> at MathWorks. I spent another summer making dashboards and a reservation system
+                    AI file interface for <NewTabLink href='https://www.mathworks.com/matlabcentral/profile/authors/140947' 
+                    linkedText='Ned Gulley'/> at MathWorks. I spent another summer making dashboards and a resource reservation system
                     for <NewTabLink href='https://www.linkedin.com/in/willyi/' linkedText='Will Yi'/> at Cisco Meraki.
                 </p>
                 <p>

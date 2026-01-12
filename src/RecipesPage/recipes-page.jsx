@@ -53,7 +53,7 @@ function BlogPage() {
                                 Melt the chocolate chips, cool for one minute, then add to the combined wet and dry ingredients.
                             </li>
                             <li>
-                             Use pistachios as your nut of choice and add after chocolate is incorporated.
+                             Add in pistachios after chocolate is incorporated.
                             </li>
                             <li>
                                 Bake until cracks form.
